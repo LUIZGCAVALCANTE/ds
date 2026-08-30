@@ -26,6 +26,8 @@ public class DscommerceApplication implements CommandLineRunner {
 		System.out.println("6 Usuário que não é ADMIN não consegue acessar pedido que não é dele em GET /orders/{id}");
 		System.out.println("7 Rota all categories ok");
 		System.out.println(" 8 Maria só acessa o que um usuario comum pode acessar ");
+		System.out.println(" 9 Usuario admin ex Alex tem plenos acessos ");
+
 
 
 
