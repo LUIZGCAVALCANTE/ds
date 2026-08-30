@@ -24,6 +24,8 @@ public class DscommerceApplication implements CommandLineRunner {
 		System.out.println("Endpoints privados de produto (POST/PUT/DELETE) funcionam somente para usuário ADMIN");
 		System.out.println("Endpoints GET /orders/{id} e POST /orders funcionando");
 		System.out.println("Usuário que não é ADMIN não consegue acessar pedido que não é dele em GET /orders/{id}");
+		System.out.println("Endpoints públicos GET /produts e GET /products/{id} funcionam sem necessidade de login");
+
 
 
 
