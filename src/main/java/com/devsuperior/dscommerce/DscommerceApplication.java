@@ -21,6 +21,8 @@ public class DscommerceApplication implements CommandLineRunner {
 
 		System.out.println("login endpoint get/users/me retorna o usuario loggado");
 		System.out.println("Endpoint de login funcionando e retornando o token de acesso");
+		System.out.println("Endpoints privados de produto (POST/PUT/DELETE) funcionam somente para usuário ADMIN");
+
 
 
 	}
