@@ -20,6 +20,7 @@ public class DscommerceApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		System.out.println("login endpoint get/users/me retorna o usuario loggado");
+		System.out.println("Endpoint de login funcionando e retornando o token de acesso");
 
 
 	}
